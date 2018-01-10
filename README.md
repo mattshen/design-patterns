@@ -6,3 +6,5 @@
 ## Structural
 
 - Proxy
+- Adapter
+- Decorator
