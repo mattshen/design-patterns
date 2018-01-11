@@ -1,9 +1,15 @@
 package structural.adapter;
 
+/**
+ * The purpose is adapting, bridging the gap between the required form and provided form
+ */
+
+//required form
 interface Adapter {
     void operation();
 }
 
+//bridging the gap
 class ConcreteAdapter implements Adapter {
     private static Adaptee adaptee;
 
@@ -16,6 +22,7 @@ class ConcreteAdapter implements Adapter {
     }
 }
 
+//actual form
 class Adaptee {
     void adaptedOperation() {
         System.out.println("Doing real work");

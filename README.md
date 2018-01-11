@@ -8,3 +8,4 @@
 - Proxy
 - Adapter
 - Decorator
+- Bridge
