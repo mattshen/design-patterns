@@ -41,7 +41,15 @@ class Circle implements Shape {
     @Override
     public void draw()
     {
-        System.out.println("Circle: Draw() [Color : " + color + ", x : " + x + ", y :" + y + ", radius :" + radius);
+        System.out.println(
+            "Circle: Draw() [Color : " 
+            + color 
+            + ", x : " 
+            + x 
+            + ", y :" 
+            + y 
+            + ", radius :" 
+            + radius);
     }
 }
 
@@ -63,7 +71,8 @@ class ShapeFactory {
 }
 
 public class FlyweightPattern {
-    private static final String colors[] = {"Red", "Green", "Blue", "White", "Black"};
+    private static final String colors[] = 
+      {"Red", "Green", "Blue", "White", "Black"};
 
     public static void main(String[] args)
     {
