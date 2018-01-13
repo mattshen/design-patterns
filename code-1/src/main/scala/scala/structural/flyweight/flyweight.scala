@@ -1,4 +1,4 @@
-package structural.flyweight.scala
+package scala.structural.flyweight
 
 object FlyweightPattern extends App {
 
