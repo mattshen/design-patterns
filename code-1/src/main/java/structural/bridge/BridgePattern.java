@@ -53,7 +53,11 @@ abstract class Shape {
 class CircleShape extends Shape {
     private double x, y, radius;
 
-    public CircleShape(final double x, final double y, final double radius, final DrawingAPI drawingAPI) {
+    public CircleShape(
+            final double x,
+            final double y,
+            final double radius,
+            final DrawingAPI drawingAPI) {
         super(drawingAPI);
         this.x = x;
         this.y = y;
