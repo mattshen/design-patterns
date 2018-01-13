@@ -1,4 +1,4 @@
-package structural.flyweight.scala;
+package structural.flyweight;
 
 import java.util.HashMap;
 
@@ -7,12 +7,13 @@ import java.util.HashMap;
  * Sharing immutable
  */
 
-interface Shape {
+interface Shape 
+{
     void draw();
 }
 
-class Circle implements Shape {
-
+class Circle implements Shape 
+{
     private String color;
     private int x;
     private int y;
@@ -76,8 +77,8 @@ public class FlyweightPattern {
 
     public static void main(String[] args)
     {
-
-        for (int i = 0; i < 20; ++i) {
+        for (int i = 0; i < 20; ++i) 
+        {
             Circle circle = (Circle) ShapeFactory.getCircle(getRandomColor());
             circle.setX(getRandomX());
             circle.setY(getRandomY());
