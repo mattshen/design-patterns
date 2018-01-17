@@ -9,3 +9,11 @@
 - Adapter
 - Decorator
 - Bridge
+- Composite
+- Facade
+- Flyweight
+
+## Behavioral
+
+- Chain of Reponsibility
+- Visitor
